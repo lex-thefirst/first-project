@@ -12,7 +12,7 @@
     background-color: #1F2937;
     height: 30rem;
     color: white;
-    padding: 20px 120px 120px 120px;
+    padding: 20px 160px 120px 160px;
 }
 
 .hero {
@@ -32,13 +32,13 @@
 .nav > h1 {
     margin-right: auto;
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto", sans-serif;
 }
 
 .nav > a {
     text-decoration: none;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto", sans-serif;
     /* align-self: flex-end; */
 }
 
@@ -49,22 +49,24 @@
 }
 
 .hero-text {
-    padding-right: 300px;
+    padding-right: 400px;
     
 }
 
-.hero-text > p {
+p {
+    font-size: 1rem;
     line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
 }
 
 h2 {
     font-size: 48px;
     font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 2rem;
 }
 
-button {
+.btn1 {
     margin-top: 3rem;
     font-size: 15px;
     color: white;
@@ -77,24 +79,123 @@ button {
 
 .info {
     background-color: white;
-    height: 20rem;
+    height: 25rem;
+    text-align: center;
+    padding: 40px;
+}
+
+.info > h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info > p {
+    color: #1f2937;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 40px;
+    padding: 20px 0 40px 0;
+}
+
+.img-div {
+    flex-basis: 200px;
+}
+
+.vector {
+    width: 250px;
+    border-radius: 10px;
 }
 
 .qoute {
     background-color: #e5e7eb;
     height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.qoute-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.author > p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     height: 20rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 120px;
+    border-radius: 10px;
+}
+
+.cta-head {
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.sign-up {
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 30px;
+    border-radius: 10px;
 }
 
 .footer {
     background-color: #1F2937;
-    height: 10rem;
+    color: white;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-img {
     width: 650px;
+    border-radius: 5px;
 }
